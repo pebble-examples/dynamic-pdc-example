@@ -8,7 +8,7 @@ This example uses an animation to make a callback to a series of functions. Thes
 
 ## Docs
 
-[Animmations] http://developer.getpebble.com/guides/pebble-apps/display-and-animations/property-animations/
+[Animations](http://developer.getpebble.com/guides/pebble-apps/display-and-animations/property-animations/)
 
 ## Tools
 
