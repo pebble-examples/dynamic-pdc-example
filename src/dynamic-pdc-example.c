@@ -113,7 +113,7 @@ static void stopped_animation_handler(Animation *animation, bool finished, void 
     s_current_image = (s_current_image+1)%2;
     switch(s_current_image){
       case 0: schedule_animation_to_square();break;
-      default: schedule_animation_from_square();break;
+      case 1: schedule_animation_from_square();break;
     }
 }
 
