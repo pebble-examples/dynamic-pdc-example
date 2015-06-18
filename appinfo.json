@@ -1,0 +1,29 @@
+{
+  "uuid": "13bcd0eb-009e-4a7d-b11a-a42c8f3983bb",
+  "shortName": "to_square_example",
+  "longName": "to_square_example",
+  "companyName": "MakeAwesomeHappen",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": [ "basalt"],
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": [                                                                                                          
+      {                                                                                                               
+        "type": "raw",                                                                                                
+        "name": "ICON_HEAVY_RAIN",                                                                                    
+        "file": "Pebble_50x50_Heavy_rain.pdc"                                                                         
+      },
+      {                                                                                                               
+        "type": "raw",                                                                                                
+        "name": "ICON_DOCUMENT",                                                                                    
+        "file": "Pebble_50x50_Generic_weather.pdc"                                                                         
+      }                                                                                                     
+    ]          
+  }
+}
