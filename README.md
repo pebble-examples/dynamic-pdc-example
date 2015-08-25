@@ -18,8 +18,10 @@ point is closest to. It then returns where on the path the point should be
 
 ## Tools
 
-The [SVG2PDC](./tools/svg2pdc.py) script converts SVG images to a PDC (Pebble Draw Command) 
-binary format image or sequence.
+The 
+[SVG2PDC](https://github.com/pebble-examples/cards-example/blob/master/tools/svg2pdc.py) 
+script converts SVG images to a PDC (Pebble Draw Command) binary format image or 
+sequence.
 
 #### Usage
 
