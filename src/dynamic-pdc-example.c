@@ -57,7 +57,7 @@ static void attract_draw_command_image_to_square(GDrawCommandImage *image, int32
 // Update callback for the background layer
 static void bg_layer_update_proc(Layer *layer, GContext *ctx) {
   GRect screen_rect = layer_get_bounds(layer);
-  graphics_context_set_fill_color(ctx, GColorRed);
+  graphics_context_set_fill_color(ctx, PBL_IF_COLOR_ELSE(GColorRed, GColorWhite));
   graphics_fill_rect(ctx, screen_rect, 0, GCornerNone);
 }
 
